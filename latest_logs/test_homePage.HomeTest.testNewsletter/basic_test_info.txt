@@ -1,0 +1,23 @@
+test_homePage.py::HomeTest::testNewsletter
+--------------------------------------------------------------------
+Last Page: https://testing.jollof.com/
+  Browser: chrome (98.0.4758.102)
+   Driver: chromedriver (98.0.4758.102)
+Timestamp: 1647428162  (Unix Timestamp)
+     Date: Wednesday, 16 March 2022
+     Time: 11:56:02 AM  (WAT, UTC+01:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.9/unittest/case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/home/linuxworkstation/Documents/MYLEARNINGPATH/QA/Selenium/testingJollof/test/test_homePage.py", line 46, in testNewsletter
+    self.click(self.subscribeBtn)
+  File "/home/linuxworkstation/Documents/PYTHON_ENVS/myProject1/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 232, in click
+    element = page_actions.wait_for_element_visible(
+  File "/home/linuxworkstation/Documents/PYTHON_ENVS/myProject1/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 377, in wait_for_element_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "/home/linuxworkstation/Documents/PYTHON_ENVS/myProject1/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Element {.btn.btn-info.btn-join} was not visible after 6 seconds!
