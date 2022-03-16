@@ -1,7 +1,5 @@
 import sys
 
-PATH = f"/home/linuxworkstation/Documents/MYLEARNINGPATH/QA/Selenium/testingJollof/page_object"
-
 sys.path.append(PATH)
 
 from home_page import HomePage
